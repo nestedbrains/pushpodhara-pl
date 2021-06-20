@@ -1,4 +1,4 @@
-import {Component, VERSION, OnInit, ViewChild, ElementRef} from '@angular/core';
+import {Component, OnInit, VERSION} from '@angular/core';
 
 
 @Component({
@@ -44,7 +44,7 @@ export class PlotBookingFormComponent implements OnInit {
       reader.readAsDataURL(imgFile.target.files[0]);
 
       // Reset if duplicate image uploaded again
-     // this.fileInput.nativeElement.value = "";
+      // this.fileInput.nativeElement.value = "";
     } else {
       this.fileAttrForCustomer = 'Choose File';
     }
