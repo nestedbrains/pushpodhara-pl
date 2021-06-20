@@ -1,0 +1,91 @@
+.main-form-content {
+  margin: auto;
+  width: 90%;
+}
+
+.header-item {
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.customer-basic-info {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.basic {
+  width: 50%;
+}
+
+.additional {
+  width: 50%;
+}
+
+.example-full-width {
+  width: 95%;
+}
+
+.customer-project {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.image-upload {
+  width: 100%;
+}
+
+.mat-toolbar-single-row {
+  height: auto !important;
+  background: transparent;
+}
+
+.mat-toolbar-single-row button {
+  width: 200px;
+}
+
+.custom-image-mat-field {
+  width: 100%;
+}
+
+
+.image-upload {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-image {
+  width: 100%;
+}
+
+.nominee-image {
+  width: 100%;
+
+}
+
+#uploadFileForCustomer {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 9;
+  opacity: 0;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+}
+
+#uploadFile {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 9;
+  opacity: 0;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+}
