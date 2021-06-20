@@ -23,9 +23,6 @@ export class PlotBookingFormComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
-
-
   customerImageUpload(imgFile: any) {
     if (imgFile.target.files && imgFile.target.files[0]) {
       this.fileAttrForCustomer = '';
